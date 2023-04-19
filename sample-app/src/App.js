@@ -7,7 +7,7 @@ const App = () => {
   useEffect(() => {
     const headers = {
       'Accept': 'application/json',
-      'Authorization': 'Bearer yourapikey'
+      'Authorization': 'Bearer udFuLqfu7oDGLDqGln7c '
     }
     const fetchData = async () => {
       const rawQuotes = await fetch('https://the-one-api.dev/v2/quote', {
